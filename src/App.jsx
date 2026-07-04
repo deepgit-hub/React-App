@@ -1,6 +1,6 @@
 import './App.css'
 import NavBar from './NavBar';
-import Course from './Course';
+import Course from './Course/Course';
 import Footer from './Footer';
 function App() {
   
