@@ -8,9 +8,9 @@ function App() {
   return (
     <>             
     
-    <Course />
-    <Course />
-    <Course />    
+    <Course name="Math" description ="Mathematics course" />
+    <Course name ="Physics" description = "Physics course" />
+    <Course name="Chemistry" description = "Chemistry course" />    
     
     </>   
   );
