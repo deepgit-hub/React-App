@@ -8,6 +8,8 @@ function App() {
   return (
     <>             
     
+    <Course />
+    <Course />
     <Course />    
     
     </>   
