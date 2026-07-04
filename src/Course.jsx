@@ -1,11 +1,11 @@
 import Deepak from './assets/Deepak.png'
 const course1 = "React";
-function Course() {
+function Course(props) {
     return (
         <div className="card">
             <img src={Deepak} alt="Deepak img" />
-            <h3>{course1}</h3>
-            <p>This is Deepak  Course</p>
+            <h3>{props.name}</h3>
+            <p>{props.description}</p>
         </div>
     );
 }
