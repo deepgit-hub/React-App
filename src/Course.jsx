@@ -4,7 +4,7 @@ function Course() {
     return (
         <div className="card">
             <img src="" alt="" />
-            <h3>{couse1}</h3>
+            <h3>{course1}</h3>
             <p>This is Deepak  Course</p>
         </div>
     );
