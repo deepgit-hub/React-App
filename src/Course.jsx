@@ -1,4 +1,3 @@
-import styles from './Course.module.css';
 const couse1 = "React";
 
 function Course() {
