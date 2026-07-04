@@ -1,4 +1,4 @@
-import Deepak from './Deepak.png';
+import Deepak from './assets/Deepak.png'
 const course1 = "React";
 function Course() {
     return (
