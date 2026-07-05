@@ -15,4 +15,9 @@
 .card img
 {
   width: 200px;
+  height: 130px;
+}
+.card h3
+{
+ color :black;
 }
