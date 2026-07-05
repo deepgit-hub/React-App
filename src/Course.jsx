@@ -1,20 +1,19 @@
 import Dee from './assets/Deepak.png'
 const course1 = "React";
-function Course(props) {
+function Course({
+    name = "Deepak",
+    description = "This is a React course",
+    image = Dee
+}) {
     return (
         <div className="card">
-            <img src={props.image}  />
-            <h3>{props.name}</h3>
-            <p>{props.description}</p>
+            <img src={image}  />
+            <h3>{name}</h3>
+            <p>{description}</p>
         </div>
     );
 }
 
-Course.defaultProps = {
-    name: "Default Course",
-    description: "This is a default course description.",
-    image : Dee
-}
 
 
 export default Course;

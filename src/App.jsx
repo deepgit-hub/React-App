@@ -11,7 +11,7 @@ function App() {
     <>             
     
     <Course name="Math" description ="Mathematics course"  image={photo1}/>
-    <Course  description = "Physics course" />
+    <Course  name = "Phy" description = "Physics course" image={photo2}/>
     <Course name="Chemistry" description = "Chemistry course"  image={photo3}/>    
     
     </>   
