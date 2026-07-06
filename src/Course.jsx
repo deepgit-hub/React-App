@@ -8,7 +8,7 @@ function Course({name, description, image, date, show,num}) {
             <h3>{name}</h3>
             <p>{description}</p>
             <p>{date}</p>
-            <p>{number}</p>
+            <p>{num}</p>
         </div>
     );
     }
