@@ -10,7 +10,12 @@ function Course({name, description, image, date, show}) {
         </div>
     );
     }
-    return null;
+    else
+    {
+        return(
+            <div className="card">Course Not available</div>
+        );
+    }
 
 }
 
