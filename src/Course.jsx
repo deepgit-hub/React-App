@@ -29,12 +29,6 @@ function Course({name, description, image, date, show,num, isPremium}) {
 
 }
 
-Course.propTypes = {
-    name: PropTypes.string,
-    description: PropTypes.string,
-    date: PropTypes.string,
-    show: PropTypes.bool,
-    num : PropTypes.number
-}
+
 
 export default Course;
