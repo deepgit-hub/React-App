@@ -1,4 +1,3 @@
-import PropTypes, { number } from 'prop-types';
 function Course({name, description, image, date, show,num, isPremium}) {
     if (isPremium)
     {
