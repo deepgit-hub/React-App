@@ -1,4 +1,6 @@
-function Course() {
+function Course({name, description, image, date, show}) {
+    if (show)
+    {
     return (
         <div className="card">
             <img src={image}  />
@@ -7,6 +9,9 @@ function Course() {
             <p>{date}</p>
         </div>
     );
+    }
+    return null;
+
 }
 
 
