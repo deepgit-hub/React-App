@@ -10,9 +10,9 @@ function App() {
   return (
     <>             
     
-    <Course name="Math" description ="Mathematics course"  image={photo1}/>
-    <Course  name = "Phy" description = "Physics course" image={photo2}/>
-    <Course name="Chemistry" description = "Chemistry course"  image={photo3}/>    
+    <Course name="Speech 1" description ="About Soft Skills"  image={photo1} date="2026-07-01"/>
+    <Course  name = "Speech 2" description = "About Coding" image={photo2} date="2026-07-02"/>
+    <Course name="Speech 3" description = "About Public Speaking"  image={photo3} date="2026-07-03"/>    
     
     </>   
   );
