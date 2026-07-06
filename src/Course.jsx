@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-function Course({name, description, image, date, show}) {
+import PropTypes, { number } from 'prop-types';
+function Course({name, description, image, date, show,num}) {
     if (show)
     {
     return (
@@ -8,6 +8,7 @@ function Course({name, description, image, date, show}) {
             <h3>{name}</h3>
             <p>{description}</p>
             <p>{date}</p>
+            <p>{number}</p>
         </div>
     );
     }
@@ -24,7 +25,8 @@ Course.propTypes = {
     name: PropTypes.string,
     description: PropTypes.string,
     date: PropTypes.string,
-    show: PropTypes.bool
+    show: PropTypes.bool,
+    num : PropTypes.number
 }
 
 export default Course;
