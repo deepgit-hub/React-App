@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 function Course({name, description, image, date, show}) {
     if (show)
     {
@@ -19,6 +20,11 @@ function Course({name, description, image, date, show}) {
 
 }
 
-
+Course.propTypes = {
+    name: PropTypes.string,
+    description: PropTypes.string,
+    date: PropTypes.string,
+    show: PropTypes.bool
+}
 
 export default Course;
