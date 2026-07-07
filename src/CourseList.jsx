@@ -28,7 +28,8 @@ function CourseList()
                 date : "2026-07-03" 
             }
         ]
-
+        const coursesList = courses.map((course) => 
+        <Course  image={course.image} name={course.name} description ={course.description}   date={course.date} num ={course.num}  />)
        
 }
 
