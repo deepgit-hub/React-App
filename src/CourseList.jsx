@@ -32,5 +32,7 @@ function CourseList()
         <Course  image={course.image} name={course.name} description ={course.description}   date={course.date} num ={course.num}  />)
        
 }
-
+return(
+    {coursesList}
+);
 export default CourseList;
