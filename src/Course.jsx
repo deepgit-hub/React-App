@@ -1,6 +1,5 @@
 function Course({name, description, image, date, show,num, isPremium}) {
-    if (isPremium)
-    {
+    
     return (
         <div className="card">
             <img src={image}  />
@@ -11,20 +10,8 @@ function Course({name, description, image, date, show,num, isPremium}) {
             <p>Premium Course</p>
         </div>
     );
-    }
-    else
-    {
-          return (
-        <div className="card">
-            <img src={image}  />
-            <h3>{name}</h3>
-            <p>{description}</p>
-            <p>{date}</p>
-            <p>{num}</p>
-            <p>Free Course</p>
-        </div>
-          );
-    }
+    
+    
 
 }
 
