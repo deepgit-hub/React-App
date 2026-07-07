@@ -1,3 +1,7 @@
+import Course from './Course';
+import photo1 from './assets/Deepak.png'
+import  photo2 from './assets/Deepak1.jpg'
+import  photo3 from './assets/Deepak2.png'
 function CourseList()
 {
     
@@ -24,7 +28,7 @@ function CourseList()
                 date : "2026-07-03" 
             }
         ]
-        
+
        
 }
 
