@@ -23,6 +23,7 @@ function CourseList()
                 date : "2026-07-02" 
             },
             {
+                id : 3,
                 num : 3,
                 name : " Speech 3" ,
                 description : "About Public Speaking",
