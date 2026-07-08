@@ -1,12 +1,12 @@
-function Course({name, description, image, date, show,num, isPremium}) {
+function Course({name, description, image, date, show,id, isPremium}) {
     
     return (
     name &&  <div className="card">
             <img src={image}  />
             <h3>{name}</h3>
             <p>{description}</p>
-            <p>{date}</p>
-            <p>{num}</p>
+            
+            <p>{id}</p>
             
         </div>
     );
