@@ -7,6 +7,7 @@ function CourseList()
     
         const courses = [
             {
+                id : 1,
                 num : 1,
                 name : " Speech 1" ,
                 description : "About Soft Skills",
@@ -14,6 +15,7 @@ function CourseList()
                 date : "2026-07-01" 
             },
             {
+                
                 num : 2,
                 name : " Speech 2" ,
                 description : "About Coding",
