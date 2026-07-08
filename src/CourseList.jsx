@@ -16,7 +16,7 @@ function CourseList()
             },
             {
                 id : 2,
-                num : 2,
+                
                 name : " Speech 2" ,
                 description : "About Coding",
                 image : photo2 ,
