@@ -6,7 +6,7 @@ function Course({name, description, image,id}) {
             <h3>{name}</h3>
             <p>{description}</p>
             
-            <p>{id}</p>
+            
             
         </div>
     );
