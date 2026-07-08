@@ -1,4 +1,4 @@
-function Course({name, description, image, date, show,id,}) {
+function Course({name, description, image,id}) {
     
     return (
     name &&  <div className="card">
