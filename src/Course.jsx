@@ -7,7 +7,7 @@ function Course({name, description, image, date, show,num, isPremium}) {
             <p>{description}</p>
             <p>{date}</p>
             <p>{num}</p>
-            <p>Premium Course</p>
+            
         </div>
     );
     
