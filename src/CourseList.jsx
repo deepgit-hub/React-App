@@ -18,7 +18,7 @@ function CourseList()
                 name : " Speech 2" ,
                 description : "About Coding",
                 image : photo2 ,
-                date : "2026-07-02" 
+                
             },
             {
                 id : 3,
