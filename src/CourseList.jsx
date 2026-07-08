@@ -25,7 +25,7 @@ function CourseList()
                 name : " Speech 3" ,
                 description : "About Public Speaking",
                 image : photo3 ,
-                date : "2026-07-03" 
+                
             }
         ]
         const coursesList = courses.map((course) => 
