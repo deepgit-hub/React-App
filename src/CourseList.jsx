@@ -15,7 +15,7 @@ function CourseList()
                 date : "2026-07-01" 
             },
             {
-                
+                id : 2,
                 num : 2,
                 name : " Speech 2" ,
                 description : "About Coding",
