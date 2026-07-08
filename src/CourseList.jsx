@@ -32,7 +32,7 @@ function CourseList()
             }
         ]
         const coursesList = courses.map((course) => 
-        <Course  key = {course.id}  image={course.image} name={course.name} description ={course.description}     />)
+        <Course  key = {course.id}  image={course.image} name={course.name} description ={course.description}   rating={course.rating}  />)
        return(
         <>
       {coursesList}
