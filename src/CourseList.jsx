@@ -8,7 +8,6 @@ function CourseList()
         const courses = [
             {
                 id : 1,
-               
                 name : " Speech 1" ,
                 description : "About Soft Skills",
                 image : photo1 ,
@@ -16,7 +15,6 @@ function CourseList()
             },
             {
                 id : 2,
-                
                 name : " Speech 2" ,
                 description : "About Coding",
                 image : photo2 ,
