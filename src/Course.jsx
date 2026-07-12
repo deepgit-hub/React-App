@@ -2,7 +2,7 @@ function Course({name, image,id,rating}) {
     function thanks(num)
     {
         console.log(name,"Thank You!!! ",num)
-        console.log(event)
+        
     }
     return (
     name &&  <div className="card">
