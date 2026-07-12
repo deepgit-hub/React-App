@@ -1,5 +1,5 @@
 function Course({name, image,id,rating}) {
-    function thanks(num , event)
+    function thanks(num)
     {
         console.log(name,"Thank You!!! ",num)
         console.log(event)
