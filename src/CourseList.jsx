@@ -19,8 +19,7 @@ function CourseList()
                 name : " Speech 2" ,
                 description : "About Coding",
                 image : photo2 ,
-                rating : 2
-                
+               
             },
             {
                 id : 3,
@@ -29,7 +28,7 @@ function CourseList()
                 image : photo3 ,
                 rating : 4
                 
-            }
+            }   
         ]
         courses.sort((a,b) => a.rating - b.rating);
         const bestspeech = courses.filter((course)=>course.rating>=3)
