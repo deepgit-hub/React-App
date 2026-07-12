@@ -9,20 +9,23 @@ function CourseList()
             {
                 id : 1,
                 name : " Speech 1" ,
-                image : photo1 
+                image : photo1 ,
+                rating : 3
                 
 
             },
             {
                 id : 2,
                 name : " Speech 2" ,
-                image : photo2 
+                image : photo2  ,
+                rating : 4
                
             },
             {
                 id : 3,
                 name : " Speech 3" ,
-                image : photo3 
+                image : photo3 ,
+                rating : 5
                 
                 
             }   
