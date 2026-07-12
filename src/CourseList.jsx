@@ -11,7 +11,7 @@ function CourseList()
                 name : " Speech 1" ,
                 description : "About Soft Skills",
                 image : photo1 ,
-                rating : 3
+                
 
             },
             {
