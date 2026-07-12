@@ -10,7 +10,7 @@ function CourseList()
                 id : 1,
                 name : " Speech 1" ,
                 image : photo1 ,
-                rating : 3
+                rating : 2
                 
 
             },
