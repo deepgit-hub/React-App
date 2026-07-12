@@ -1,14 +1,14 @@
-function Course({name, description, image,id,rating}) {
-    function thanks()
+function Course({name, image,id,rating}) {
+    function thanks(num)
     {
-        console.log("Thank You!!!")
+        console.log(name,"Thank You!!! ",num)
     }
     return (
     name &&  <div className="card">
             <img src={image}  />
             <h3>{name}</h3>
             <h4>{rating}</h4>
-            <button onClick={thanks}>Good</button>
+            <button onClick={()=>thanks(20)}>Good</button>
             
         </div>
     );
