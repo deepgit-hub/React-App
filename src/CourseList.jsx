@@ -9,7 +9,6 @@ function CourseList()
             {
                 id : 1,
                 name : " Speech 1" ,
-                description : "About Soft Skills",
                 image : photo1 
                 
 
@@ -17,14 +16,12 @@ function CourseList()
             {
                 id : 2,
                 name : " Speech 2" ,
-                description : "About Coding",
                 image : photo2 
                
             },
             {
                 id : 3,
                 name : " Speech 3" ,
-                description : "About Public Speaking",
                 image : photo3 
                 
                 
@@ -33,7 +30,7 @@ function CourseList()
         courses.sort((a,b) => a.rating - b.rating);
         const bestspeech = courses.filter((course)=>course.rating>=3)
         const coursesList = bestspeech.map((course) => 
-        <Course  key = {course.id}  image={course.image} name={course.name} description ={course.description}   rating={course.rating}  />)
+        <Course  key = {course.id}  image={course.image} name={course.name}  rating={course.rating}  />)
        return(
         <>
       {coursesList}

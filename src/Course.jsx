@@ -4,7 +4,6 @@ function Course({name, description, image,id,rating}) {
     name &&  <div className="card">
             <img src={image}  />
             <h3>{name}</h3>
-            <p>{description}</p>
             <h4>{rating}</h4>
             
             
