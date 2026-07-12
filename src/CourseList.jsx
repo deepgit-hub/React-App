@@ -32,7 +32,8 @@ function CourseList()
             }
         ]
         courses.sort((a,b) => a.rating - b.rating);
-        const coursesList = courses.map((course) => 
+        const bestspeech = courses.filter((course)=>course.rating>=3)
+        const coursesList = bestspeech.map((course) => 
         <Course  key = {course.id}  image={course.image} name={course.name} description ={course.description}   rating={course.rating}  />)
        return(
         <>
