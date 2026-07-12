@@ -9,7 +9,7 @@ function Course({name, image,id,rating}) {
             <img src={image}  />
             <h3>{name}</h3>
             <h4>{rating}</h4>
-            <button onClick={(event)=>thanks(20,event)}>Good</button>
+            <button onClick={()=>thanks(20)}>Good</button>
             
         </div>
     );
