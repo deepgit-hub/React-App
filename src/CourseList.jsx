@@ -26,7 +26,7 @@ function CourseList()
                 name : " Speech 3" ,
                 description : "About Public Speaking",
                 image : photo3 ,
-                rating : 4
+                
                 
             }   
         ]
