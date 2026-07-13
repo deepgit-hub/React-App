@@ -1,5 +1,6 @@
 function Course({name, image,id,rating}) {
-    let contribute = false;
+    // let contribute = false;
+    
     function thanks(num)
     {
         console.log(name,"Thank You for Contribution ",num)
