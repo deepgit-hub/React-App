@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 function Course({name, image,id,rating}) {
-    // let contribute = false;
     const [contribute,setContribute] = useState(false);
     function thanks(num)
     {
