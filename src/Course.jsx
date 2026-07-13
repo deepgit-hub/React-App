@@ -6,7 +6,6 @@ function Course({name, image,id,rating}) {
     {
         console.log(name,"Thank You for Contribution ",num)
         contribute = true;
-        
     }
     return (
     name &&  <div className="card">
