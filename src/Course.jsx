@@ -13,7 +13,7 @@ function Course({name, image,id,rating}) {
             <h3>{name}</h3>
             <h4>{rating}</h4>
             <button onClick={()=>thanks(20)}>Contribute</button>
-            <p>{contribute ? "Thanks for your contributon " : "Contribu Please"}</p>
+            <p>{contribute ? "Thanks for your contributon " : "Contribution Please"}</p>
             
         </div>
     );
